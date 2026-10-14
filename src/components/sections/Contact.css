@@ -1,0 +1,12 @@
+.contact { background: var(--board); color: #E9EEEC; border-radius: 10px; padding: clamp(32px, 4vw, 64px) clamp(24px, 4vw, 64px); display: grid; gap: 28px; }
+.contact h2 { font-family: var(--font-display); font-weight: 800; font-size: clamp(36px, 6vw, 88px); text-transform: uppercase; line-height: 0.95; color: var(--board-ink); }
+.contact p { margin: 0; max-width: 60ch; color: #B9C6C4; font-size: 18px; }
+.rows { display: grid; gap: 10px; }
+.crow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 10px; }
+.crow .k { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8FA19F; width: 90px; }
+.crow .v { font-family: var(--font-mono); font-size: 17px; user-select: all; overflow-wrap: anywhere; min-width: 0; flex: 1; }
+.crow a { color: #E9EEEC; }
+.copy {
+  font: 500 12px var(--font-mono); background: transparent; color: var(--board-ink);
+  border: 1px solid rgba(244,185,46,0.5); border-radius: 4px; padding: 4px 10px; cursor: pointer;
+}

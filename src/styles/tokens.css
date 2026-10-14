@@ -1,0 +1,28 @@
+/* Layout: a transit route sheet. Destination-board hero, career drawn as a route line with stop states, projects as depot cards. */
+:root {
+  --bg: #F3F5F4;
+  --surface: #FFFFFF;
+  --ink: #142027;
+  --muted: #5A6A70;
+  --line: #D5DCDA;
+  --route: #0B7A6B;      /* route line / primary accent */
+  --led: #E8A317;        /* destination-board amber */
+  --led-ink: #6B4A00;
+  --board: #10181C;
+  --board-ink: #F4B92E;
+  --font-display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1518; --surface: #152024; --ink: #E4ECEA; --muted: #93A4A6; --line: #26363A;
+    --route: #3CC5AE; --led: #F4B92E; --led-ink: #F4B92E; --board: #070C0E; --board-ink: #F4B92E;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1518; --surface: #152024; --ink: #E4ECEA; --muted: #93A4A6; --line: #26363A;
+  --route: #3CC5AE; --led: #F4B92E; --led-ink: #F4B92E; --board: #070C0E; --board-ink: #F4B92E;
+  color-scheme: dark;
+}

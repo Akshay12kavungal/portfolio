@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+img { max-width: 100%; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.6;
+  padding-inline: clamp(16px, 4vw, 64px);
+}
+.wrap { width: 100%; display: grid; gap: 88px; padding-block: 40px 80px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+a { color: var(--route); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--led); outline-offset: 3px; border-radius: 4px; }
+.label {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 6px;
+  font: 500 15px var(--font-body); text-decoration: none; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+}
+.btn.primary { background: var(--route); border-color: var(--route); color: var(--bg); }
+.btn:hover { border-color: var(--route); }

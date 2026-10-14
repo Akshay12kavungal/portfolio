@@ -1,6 +1,7 @@
-import SectionHead from './SectionHead.jsx'
-import Chips from './Chips.jsx'
-import { experience, stateLabel } from '../data.js'
+import SectionHead from '../ui/SectionHead.jsx'
+import Chips from '../ui/Chips.jsx'
+import { experience, stateLabel } from '../../data'
+import './Experience.css'
 
 function Stop({ job }) {
   const cls = job.state === 'passed' ? 'stop' : `stop ${job.state}`

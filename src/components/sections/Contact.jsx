@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
-import { profile } from '../data.js'
+import { profile } from '../../data'
+import './Contact.css'
 
 function CopyRow({ label, value }) {
   const ref = useRef(null)

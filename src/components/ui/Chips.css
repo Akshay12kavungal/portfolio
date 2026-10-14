@@ -1,0 +1,7 @@
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; padding: 0; list-style: none; }
+.chips li {
+  font-family: var(--font-mono); font-size: 13px; padding: 4px 10px; border-radius: 3px;
+  background: color-mix(in srgb, var(--route) 10%, transparent); color: var(--ink);
+}
+/* Tag lists sit inside .stop / .proj, whose generic ul rules would otherwise turn them into a grid. */
+.stop .chips, .proj .chips { display: flex; flex-wrap: wrap; gap: 6px; padding-left: 0; max-width: none; font-size: 13px; }

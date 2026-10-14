@@ -1,5 +1,6 @@
-import SectionHead from './SectionHead.jsx'
-import { education } from '../data.js'
+import SectionHead from '../ui/SectionHead.jsx'
+import { education } from '../../data'
+import './Education.css'
 
 export default function Education() {
   return (

@@ -1,7 +1,8 @@
-import SectionHead from './SectionHead.jsx'
-import Chips from './Chips.jsx'
-import RouteMap from './RouteMap.jsx'
-import { featuredProject, projects } from '../data.js'
+import SectionHead from '../ui/SectionHead.jsx'
+import Chips from '../ui/Chips.jsx'
+import RouteMap from '../ui/RouteMap.jsx'
+import { featuredProject, projects } from '../../data'
+import './Projects.css'
 
 function ProjectTop({ p }) {
   return (

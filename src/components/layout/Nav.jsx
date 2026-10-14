@@ -1,4 +1,5 @@
-import { profile } from '../data.js'
+import { profile } from '../../data'
+import './Nav.css'
 
 const links = [
   ['#experience', 'Experience'],

@@ -1,5 +1,6 @@
-import SectionHead from './SectionHead.jsx'
-import { skills } from '../data.js'
+import SectionHead from '../ui/SectionHead.jsx'
+import { skills } from '../../data'
+import './Skills.css'
 
 export default function Skills() {
   return (

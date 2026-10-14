@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import './RouteMap.css'
 
 // Illustration of the AVLS stop tracker: a bus moving along a route with passed, current, next and upcoming stops.
 export default function RouteMap() {

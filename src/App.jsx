@@ -1,11 +1,11 @@
-import Nav from './components/Nav.jsx'
-import Hero from './components/Hero.jsx'
-import Experience from './components/Experience.jsx'
-import Projects from './components/Projects.jsx'
-import Skills from './components/Skills.jsx'
-import Education from './components/Education.jsx'
-import Contact from './components/Contact.jsx'
-import { profile } from './data.js'
+import Nav from './components/layout/Nav.jsx'
+import Footer from './components/layout/Footer.jsx'
+import Hero from './components/sections/Hero.jsx'
+import Experience from './components/sections/Experience.jsx'
+import Projects from './components/sections/Projects.jsx'
+import Skills from './components/sections/Skills.jsx'
+import Education from './components/sections/Education.jsx'
+import Contact from './components/sections/Contact.jsx'
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
       <Skills />
       <Education />
       <Contact />
-      <footer>© {new Date().getFullYear()} {profile.name} · Bangalore</footer>
+      <Footer />
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import './Chips.css'
+
 export default function Chips({ items }) {
   return (
     <ul className="chips" aria-label="Stack">

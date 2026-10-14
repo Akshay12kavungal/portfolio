@@ -1,4 +1,5 @@
-import { profile } from '../data.js'
+import { profile } from '../../data'
+import './Hero.css'
 
 export default function Hero() {
   return (
