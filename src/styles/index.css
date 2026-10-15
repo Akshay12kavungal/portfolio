@@ -1,4 +1,13 @@
+
 /* Global styles: design tokens and base elements.
    Section and component styles live next to their .jsx files. */
+
 @import './tokens.css';
 @import './base.css';
+
+/* Hide the Netlify badge */
+#netlify-badge,
+netlify-badge,
+[data-netlify-badge] {
+  display: none !important;
+}
